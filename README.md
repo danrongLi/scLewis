@@ -1,2 +1,5 @@
 # scLewis
-Complexity-Guided Sketching for Efficient Single-Cell Annotation
+
+**Complexity-Guided Sketching for Efficient Single-Cell Annotation**
+
+
