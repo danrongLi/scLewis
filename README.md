@@ -16,7 +16,11 @@ The three scLewis variants share the same sampling procedure within each cell ty
 
 
 
-Comparisons include Uniform sampling, GeoSketch, Sphetcher, Hopper, TreeHopper, scSampler, Kernel Herding, and scValue. Logistic regression trained on all training cells (**Full LR**) provides an additional reference.
+Comparisons include Uniform sampling, GeoSketch, Sphetcher, Hopper, TreeHopper, scSampler, Kernel Herding, and scValue. Logistic regression trained on all training cells (Full LR) provides an additional reference.
+
+
+
+
 
 
 
