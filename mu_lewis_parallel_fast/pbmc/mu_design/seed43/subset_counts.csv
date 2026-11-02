@@ -1,0 +1,21 @@
+class_label,subset_count
+CD14 Monocyte,1158
+NK,787
+CD8m T,655
+CD4m T,482
+CD4n T,458
+B,403
+RBC,144
+CD16 Monocyte,140
+Class-switched B,108
+CD8eff T,97
+IgA PB,95
+IgG PB,92
+Platelet,68
+DC,59
+gd T,55
+CD4 T,52
+SC & Eosinophil,49
+Neutrophil,37
+pDC,33
+Activated Granulocyte,28

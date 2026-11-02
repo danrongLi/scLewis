@@ -1,0 +1,19 @@
+{
+  "add_intercept": false,
+  "cache_dir": "cache/lewis_embedding",
+  "dataset": "blish_covid_processed.h5ad",
+  "dataset_name": "blish_covid_processed",
+  "input_state": "preprocessed",
+  "label_key": "cell.type",
+  "min_class_count": 20,
+  "mu_centering": "centered",
+  "mu_min_pos": 5,
+  "mu_row_sampling": "stratified_minpos",
+  "mu_rows": 5000,
+  "n_hvgs": 2000,
+  "n_pcs": 100,
+  "overwrite": true,
+  "seed": 46,
+  "target_sum": 10000,
+  "test_size": 0.2
+}

@@ -1,0 +1,50 @@
+{
+  "artifacts_sha256": {
+    "X_svd_all.npy": "77d0a8e028150ee3b09baf4d59044c605b122a9d0289f6ab23192e33dab16db4",
+    "labels.npy": "34cfa865c227e591992d163b46ac992b220a6137cb8e5f381c50464bd62ded39",
+    "obs_names.npy": "cfae7a19a0bd3b24eeb47b45f08d4a4adce6754b5324386b11bf991e8e028615"
+  },
+  "cache_build_total_sec": 11.937618874944746,
+  "dataset": "blish_covid_processed.h5ad",
+  "dataset_name": "blish_covid_processed",
+  "dtype": "float64",
+  "embedding_runtime_sec_reported_by_base": 5.082341791130602,
+  "embedding_wall_runtime_sec": 5.082349624950439,
+  "input_state": "preprocessed",
+  "label_key": "cell.type",
+  "n_cells": 37582,
+  "n_genes": 2000,
+  "n_pcs": 100,
+  "n_pcs_requested": 100,
+  "normalization": "none_preprocessed",
+  "normalization_backend": "preprocessed",
+  "request": {
+    "dataset_sha256": "70125795cc95a56572d0bd92830c23c6cd04000cb129924d2ac2fdd7a945023d",
+    "package_versions": {
+      "anndata": "0.11.3",
+      "numpy": "1.26.4",
+      "pandas": "2.2.1",
+      "scikit-learn": "1.6.1",
+      "scipy": "1.11.4"
+    },
+    "schema_version": 2,
+    "settings": {
+      "base_script": "corlewis_ovr_theory_benchmark.py",
+      "dataset": "blish_covid_processed.h5ad",
+      "dataset_name": "blish_covid_processed",
+      "dtype": "float64",
+      "input_state": "preprocessed",
+      "label_key": "cell.type",
+      "n_pcs": 100,
+      "svd_random_state": 42,
+      "target_sum": 10000.0
+    },
+    "source_sha256": {
+      "build_lewis_svd_cache.py": "458f5f03a56ae260d3781bfe897a2a3249d4c39be63c92f072660114ff55d902",
+      "corlewis_ovr_theory_benchmark.py": "37cdd4b4f0a7e80dd00ce0479298da7caa68e79e32ba9dd15257d18e7def1c97",
+      "validate_pbmc_branch.py": "3aa00305a5da9a68a01b925041d3b05cdee5aa070e3aefc8560b3d217ac4d84e"
+    }
+  },
+  "svd_random_state": 42,
+  "target_sum": null
+}

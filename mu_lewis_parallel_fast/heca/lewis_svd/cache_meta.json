@@ -1,0 +1,16 @@
+{
+  "cache_build_total_sec": 33.761465704999864,
+  "dataset": "heca_200k.h5ad",
+  "dataset_name": "hECA",
+  "dtype": "float64",
+  "embedding_runtime_sec_reported_by_base": 6.250968747772276,
+  "embedding_wall_runtime_sec": 6.250989506021142,
+  "label_key": "cell_type",
+  "n_cells": 200000,
+  "n_genes": 2000,
+  "n_pcs": 100,
+  "n_pcs_requested": 100,
+  "normalization": "normalize_total_log1p",
+  "svd_random_state": 42,
+  "target_sum": 10000.0
+}
